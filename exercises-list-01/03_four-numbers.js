@@ -12,16 +12,17 @@ const prompt = require("prompt-sync")();
 let num1 = parseInt(prompt("Primeiro número: "));
 let num2 = parseInt(prompt("Segundo número: "));
 let num3 = parseInt(prompt("Terceiro número: "));
+let num4 = parseInt(prompt("Quarto número: "));
 
-let newNum1 = num1 + 25;
-let newNum2 = num2 * 3;
-let newNum3 = num3 * 0.12;
-let newNum4 = num1 + num2 + num3;
+num4 = num1 + num2 + num3;
+num1 = num1 + 25;
+num2 = num2 * 3;
+num3 = num3 * 0.12;
 
 console.log("*******************");
 console.log("Os resultado final dos quatro números foram:");
-console.log("Novo primeiro número:", newNum1);
-console.log("Novo segundo número:", newNum2);
-console.log("Novo terceiro número:", newNum3);
-console.log("Novo quarto número:", newNum4);
+console.log("Novo primeiro número:", num1);
+console.log("Novo segundo número:", num2);
+console.log("Novo terceiro número:", num3);
+console.log("Novo quarto número:", num4);
 console.log("*******************");
