@@ -1,6 +1,6 @@
 # Repositório do Bootcamp +praTi
 
-Este repositório contém os arquivos e exercícios do Bootcamp +praTi. A primeira lista de exercícios está localizada na pasta `exercises-list-01`.
+Este repositório contém os arquivos e exercícios do Bootcamp +praTi. A primeira lista de exercícios está localizada na pasta `exercises-list-01` e a segunda lista de exercícios está localizada na pasta `exercises-list-02`.
 
 ## Clonando o Repositório
 
