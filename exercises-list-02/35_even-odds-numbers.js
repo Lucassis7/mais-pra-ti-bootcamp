@@ -7,7 +7,7 @@ function evenAndOddsValues(values) {
   let evenIndex = 0;
   let oddsIndex = 0;
 
-  for (let i = 0; i < values.length; i++) {
+  for (let i = 0; i < values.length; i += 1) {
     let value = values[i];
 
     if (value % 2 === 0) {
@@ -17,7 +17,7 @@ function evenAndOddsValues(values) {
       }
 
       even[evenIndex] = value;
-      evenIndex++;
+      evenIndex += 1;
     } else {
       if (oddsIndex === 5) {
         console.log("Vetor de ímpares cheio:", odds);
@@ -25,7 +25,7 @@ function evenAndOddsValues(values) {
       }
 
       odds[oddsIndex] = value;
-      oddsIndex++;
+      oddsIndex += 1;
     }
   }
 
@@ -37,10 +37,3 @@ function evenAndOddsValues(values) {
     console.log("Vetor de ímpares final:", odds.slice(0, oddsIndex));
   }
 }
-
-const values = [
-  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
-  23, 24, 25, 26, 27, 28, 29, 30,
-];
-
-evenAndOddsValues(values);
