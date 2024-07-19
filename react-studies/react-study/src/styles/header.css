@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #c4ca8e;
+}
+
+img {
+  width: 100px;
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  line-height: 1.7;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #1b1b1b;
+}
+
+li:hover {
+  background-color: #1b1b1b;
+  color: #fff;
+  cursor: pointer;
+}
